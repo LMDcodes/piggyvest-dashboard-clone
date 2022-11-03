@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: #16165f;
+width: 100%;
+margin: 0px;
+font-family: Arial Narrow;
+font-size: 16px;
+}
+
+.logo{
+display: block;
+margin: auto;
+padding-top: 50px;
+}
+
+.main{
+width: 40%;
+background-color: #ffffff;
+margin: auto;
+padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 40px;
+margin-bottom: 30px;
+height: fit-content;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+@media screen and (max-width:820px) {
+    .main{
+        width: 90%;
+    }
+}
+
+
+h1{
+color: #152581;
+font-size: 1.3em;
+text-align: center;
+line-height: 0.5px;
+}
+
+p{
+font-size: 0.9em;
+text-align: center;
+}
+
+label{
+font-size: 0.8em;
+}
+
+.txn{
+width: 100%;
+padding: 0px 20px;
+padding-bottom: 50px;
+}
+
+input[type=text]{
+padding: 20px 20px;
+border: none;
+border-radius: 5px;
+background-color: whitesmoke;
+width: 100%;
+font-size: 0.9em;
+outline: none;
+}
+
+
+#choose{
+width: 100%;
+padding: 20px 20px;
+border-color: whitesmoke;
+border: none;
+border-radius: 5px;
+background-color: whitesmoke;
+font-size: 1em;
+}
+
+.btn{
+color: #ffffff;
+padding: 20px 20px;
+box-sizing: border-box;
+border-color: whitesmoke;
+border: none;
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+background-color: blue;
+font-size: 0.9em;
+cursor: pointer;
+}
+
+.btn:hover{
+opacity: 0.9;
+}
+
+.login a{
+color: white;
+font-size: 0.7em;
+text-align: center;
+text-decoration: none;
+}
